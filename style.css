@@ -1,0 +1,297 @@
+.top-head .top-head-items{
+	float: left;
+	padding-left: 10px;
+	font-family: Dorid Serif;
+	font-size: 17px;
+}
+.top-head-1 .top-head-items-1{
+	float: right;
+	padding-left: 10px;
+	font-family: Dorid Serif;
+	font-size: 17px;
+}
+#menu #menu-items{
+	font-size: 18px;
+
+}
+#menu-items a{
+	color:white;
+	opacity: 0.9;
+}
+#menu-items a:hover{
+	background-color:#ffffff;
+	color:black;
+}
+#texture{
+	background-image: url(images/texture.png);
+	height: 500px;
+	
+}
+.gr-service{
+	background-color: #04183c;
+	border:solid 1px #4e4d4d;
+	text-align: center;
+	color:white;
+	font-family: Open Sans;
+	padding:5px;
+}
+.gr-clients{
+	background-color: #04183c;
+	border:solid 1px #4e4d4d;
+	text-align: center;
+	color:white;
+	font-family: Open Sans;
+	padding:5px;
+}
+.gr-projects{
+	font-family:Open Sans;
+	padding:5px;
+	color:white;
+}
+/*.gr-service:hover{
+	text-align: center;
+	color:black;
+	background-color: white;
+	border:none;
+
+}*/
+/*.gr-projects:hover{
+	background-color: #04183c;
+	border:solid 2px #4e4d4d;
+	text-align: center;
+	color:white;
+}*/
+/*.gr-clients:hover{
+	text-align: center;
+	color:black;
+	background-color: white;
+	border:none;
+}*/
+.gr-provide{
+	border:solid 1px #016484;
+	text-align: justify;
+	padding: 20px;
+	font-family: 'Roboto', Arial, sans-serif;font-size: 0.8em;letter-spacing:1px;color:#ffffff;opacity: 0.8;
+}
+#btn{
+	font-family: Dorid Serif;
+	font-size: 17px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+#btn:hover{
+	background-color: #4d94ff;
+	color:white;
+}
+/*..............image hover text display.........*/
+.hover-effect {
+  position: relative;
+  width: 300px;
+  
+}
+
+.gr-ser {
+  display: block;
+  width: 160px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.hover-effect:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+ /* white-space: nowrap; */
+  color: white;
+  font-family: Dorid Serif;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  /*margin-top: 50px;*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*..............end........................*/
+/*...................owl............*/
+ /* jssor slider bullet navigator skin 03 css */
+        /*
+        .jssorb03 div           (normal)
+        .jssorb03 div:hover     (normal mouseover)
+        .jssorb03 .av           (active)
+        .jssorb03 .av:hover     (active mouseover)
+        .jssorb03 .dn           (mousedown)
+        */
+        .jssorb03 {
+            position: absolute;
+        }
+        .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 21px;
+            height: 21px;
+            text-align: center;
+            line-height: 21px;
+            color: white;
+            font-size: 12px;
+            background: url('images/b03.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb03 div { background-position: -5px -4px; }
+        .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+        .jssorb03 .av { background-position: -65px -4px; }
+        .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+
+        /* jssor slider arrow navigator skin 03 css */
+        /*
+        .jssora03l                  (normal)
+        .jssora03r                  (normal)
+        .jssora03l:hover            (normal mouseover)
+        .jssora03r:hover            (normal mouseover)
+        .jssora03l.jssora03ldn      (mousedown)
+        .jssora03r.jssora03rdn      (mousedown)
+        .jssora03l.jssora03ldn      (disabled)
+        .jssora03r.jssora03rdn      (disabled)
+        */
+        .jssora03l, .jssora03r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('images/a03.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora03l { background-position: -3px -33px; }
+        .jssora03r { background-position: -63px -33px; }
+        .jssora03l:hover { background-position: -123px -33px; }
+        .jssora03r:hover { background-position: -183px -33px; }
+        .jssora03l.jssora03ldn { background-position: -243px -33px; }
+        .jssora03r.jssora03rdn { background-position: -303px -33px; }
+        .jssora03l.jssora03lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+        .jssora03r.jssora03rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
+/*........................end...................*/
+/*...............about page............................*/
+/*<!-- ............. profile style............... -->*/
+/*<style type="text/css">*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+.snip1336 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width:100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #141414;
+  margin-left: 50px;
+}
+.snip1336 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1336 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+.snip1336 figcaption {
+  width: 100%;
+  background-color: #141414;
+  padding: 25px;
+  position: relative;
+}
+.snip1336 figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #141414;
+}
+.snip1336 figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 10px 0;
+  display: inline-block;
+  opacity: 0.65;
+  /*width: 47%;*/
+
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.snip1336 figcaption a:hover {
+  opacity: 1;
+}
+.snip1336 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.snip1336 .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.snip1336 h2 {
+  margin: 0 0 5px;
+  font-weight: 300;
+}
+.snip1336 h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.snip1336 p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+/* Demo purposes only */
+body {
+  background-color: #212121;
+
+}
+<!-- .........end................. -->
+
+/*</style>*/
+
+/*<!-- ....................................end3..................................... -->*/
+/*..........................end about page...................*/
